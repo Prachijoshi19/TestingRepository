@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+    <form>
+        Title:<input type="text" id="title"><br><br>
+        Completed:<input type="radio" name="status" id="status" value="true">TRUE
+        <input type="radio" name="status" id="status" value="false">FALSE<br><br>
+        <input type="submit" value="ADD">
+    </form>
+    </fieldset>
+    <button id="btn_tasks">GET TASKS</button>
+    <section id="main">
+        <ul id="ulData">
+
+        </ul>
+    </section>
+    <script src="todoList.js"></script>
+</body>
+</html>
+
+<!--getData('DELETE',URL+`\${id}`)-->
